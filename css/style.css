@@ -10,12 +10,54 @@ body {
     line-height: 1.2rem;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* /GENERAL RULES */
 
 /* UTILITIES */
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
 
 /* /UTILITIES */
 
 /* STYLE */
+header {
+    background-color: #ff6900;
+    color: #fff;
+    box-shadow: 2px 2px 5px #333;
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    width: 170px;
+}
+
+header div {
+    padding: 15px 0;
+}
+
+header a,
+i {
+    padding: 0 5px;
+}
+
 
 /* /STYLE */
