@@ -13,13 +13,14 @@ body {
 a {
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
 }
 
 /* /GENERAL RULES */
 
 /* UTILITIES */
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -33,6 +34,10 @@ a {
 
 .align-items-center {
     align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* /UTILITIES */
@@ -65,12 +70,15 @@ i {
 
 /* Main style */
 main img {
-    width: calc(100% / 3);
+    /*width: calc(100% / 3);*/
+    width: 100%;
 }
 
 .cards {
-    margin-top: 70px;
+    margin: 70px 20px 20px 20px;
     position: relative;
+    width: calc(100% / 3 - 40px);
+
 }
 
 .product-info {
@@ -87,12 +95,12 @@ main img {
 }
 
 .product-sale {
-    background-color: #008000;
+    background-color: #ff0000;
     padding: 5px;
 }
 
 .sustainability {
-    background-color: #ff0000;
+    background-color: green;
     padding: 5px;
 }
 
@@ -104,7 +112,16 @@ main img {
     font-weight: bold;
 }
 
-
+.heart {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 
 /* /Main style */
 
