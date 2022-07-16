@@ -13,14 +13,13 @@ body {
 a {
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
 }
 
 /* /GENERAL RULES */
 
 /* UTILITIES */
 .container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -59,6 +58,10 @@ header {
 
 header div {
     padding: 15px 0;
+}
+
+.header-links {
+    font-weight: bold;
 }
 
 header a,
@@ -139,5 +142,19 @@ main img {
 }
 
 /* /Main style */
+
+/* Footer style */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.footer-links,
+.social-icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* /Footer style */
 
 /* /STYLE */
