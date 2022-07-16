@@ -123,6 +123,21 @@ main img {
     border-bottom-left-radius: 5px;
 }
 
+.cards:hover .heart {
+    color: #ff0000;
+}
+
+.hover-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+
+.cards:hover .hover-img {
+    visibility: visible;
+}
+
 /* /Main style */
 
 /* /STYLE */
