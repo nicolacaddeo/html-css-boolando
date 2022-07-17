@@ -147,12 +147,17 @@ main img {
 footer {
     background-color: #1a1a1a;
     color: #fff;
+    line-height: 1.6rem;
 }
 
 .footer-links,
 .social-icons {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+footer a {
+    padding: 0 8px 0 0;
 }
 
 /* /Footer style */
